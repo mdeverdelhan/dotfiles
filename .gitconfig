@@ -1,0 +1,19 @@
+[color]
+    ui = auto
+
+[alias]
+    st = status
+    ci = commit
+    cim = commit -m
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %s %C(red)(%an) %C(green)%ar' --abbrev-commit --all
+    lobo = log --left-right --graph --cherry-pick --oneline HEAD...origin/master
+    ls = ls-files
+    del = add -u
+
+[push]
+    default = simple
